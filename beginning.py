@@ -24,4 +24,4 @@ if __name__ == "__main__":
     schedule.every(2).minutes.do( task_sunat_trazabilidad )
     while True:
         schedule.run_pending()
-        time.sleep(5)
+        
