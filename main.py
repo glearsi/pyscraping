@@ -1,6 +1,6 @@
 import time
 import schedule
-from sunat_trazabilidad import Sunat_aereo
+from controller import Sunat_aereo
 from datetime import datetime
 
 def task_sunat_trazabilidad():
