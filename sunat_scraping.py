@@ -162,7 +162,6 @@ def www_sunat_traza_manifiesto( dr , **kwargs ):
             x = dr.find_element( By.XPATH, "//li[@id='nivel4_28_1_2_1_1']"  ) #consultas trazabilidda
             dr.execute_script("arguments[0].click();", x )
             dr.switch_to.frame("iframeApplication")
-            print("paso 4")
             return d
 
         #cuando no se tiene resultado de la busqueda, no se muestra la tabla y se muestra error 
