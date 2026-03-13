@@ -87,7 +87,7 @@ def www_sunat_login( dr , **kwargs ):
         raise TimeoutError( f"Error sunat login {ex}" )
 
 
-def www_sunat_traza_link( dr ):
+def www_sunat_menu_link( dr ):
     try:
         
         menu = WebDriverWait(dr, 15).until( EC.element_to_be_clickable((By.XPATH, "//div[@id='divOpcionServicio3']"))   )
